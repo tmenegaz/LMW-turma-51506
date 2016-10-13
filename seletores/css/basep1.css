@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "base.css";
+
+article p[id="blocop1"] {
+    margin: 0;
+    position: relative;
+    width: 80%;
+}
+
+.cadastro{
+  position: relative;
+  width: 60%;
+}
+
+.cadastro1{
+  position: relative;
+  width: 60%;
+}
+
+.form2 {
+  float: left;
+}
+
+label {
+  padding-right: 30px;
+  display: block;
+
+}
+input {
+  position: relative;
+  width: inherit;
+  display: block;
+}
+
+input#enviar {
+  clear: both;
+  width: auto;
+}

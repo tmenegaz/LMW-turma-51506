@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/skin.css">
+    <title>index</title>
+</head>
+
+<body>
+    <header>
+        <div class="paraliza">
+            <div class="logoRight"></div>
+            <div class="logoLeft"></div>
+            <span id="top"><strong>&lt;</strong>html</span>
+            <span id="base">css<em>}</em></span>
+        </div>
+        <h1 id="titulo">Lista de formas possíveis para usar CSS em HTML</h1>
+    </header>
+    <aside class="menu">
+        <nav>
+            <ul>
+                <li><a href="#inline">Estilo em linha</a></li>
+                <ul>
+                    <li><a href="#exer1">Exercício 1</a></li>
+                </ul>
+                <li><a href="#incorp">Estilo incorporado</a></li>
+                <ul>
+                    <li><a href="#exer2">Exercício 2</a></li>
+                </ul>
+                <li><a href="#externo">Estilo externo</a></li>
+                <ul>
+                    <li><a href="#exer3">Exercício 3</a></li>
+                </ul>
+                <li><a href="#importa">Estilo importado</a></li>
+                <ul>
+                    <li><a href="#exer4">Exercício 4</a></li>
+                </ul>
+                <li><a href="#tudo">Todas as formas</a></li>
+                <ul>
+                    <li><a href="#exer5">Exercício 5</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </aside>
+
+    <article class="assunto">
+        <ol type="1" start="1">
+            <li>
+                <h3 id="inline">Estilo em linha</h3></li>
+            <section>
+                <p>
+                    Diz-se que uma folha de estilo está em linha ou inline quando as regras de estilo estão declaradas dentro da <em>Tag</em> HTML.
+                </p>
+                <p>
+                    Observe dentro da <em>Tag</em> p o estilo declarado na forma inline, em destaque:
+                </p>
+            </section>
+            <code>
+        <p>
+          &lt;p <strong>style="color: blue;"</strong> &gt;Texto do parágrafo &lt;/p&gt;
+        </p></code>
+            <h4 id="exer1">Exercício</h4>
+            <p>
+                Use estilo em linha para mudar a cor de um título de nível 1 - h1, para vermelho
+            </p>
+            <li>
+                <h3 id="incorp">Estilo incorporada</h3></li>
+            <section>
+                <p>
+                    As folhas de estilo incorporadas são declaradas na <em>Tag</em> head para determinar regas de estilo para uma única página HTML.
+                </p>
+                <p>
+                    Observe dentro da <em>Tag</em> p o estilo declarado na forma incorporada, em destaque:
+                </p>
+            </section>
+            <code>
+        <p>
+          <strong>&lt;style type="text/css"&gt; <br/ >
+            p {margin-left: 20px;}<br/ >
+          &lt;/style&gt;</strong>
+        </p></code>
+            <h4 id="exer2">Exercício</h4>
+            <p>
+                Use estilo incorporado para mudar a distância da margem esquerda de um título de nível 1 - h1, para 80px do lado esquerdo.
+            </p>
+            <li>
+                <h3 id="externo">Estilo externo</h3></li>
+            <section>
+                <p>
+                    Assim como as incorporadas, as folhas de estilo externas são chamadas na <em>Tag</em> head. Contudo, utiliza-se um arquivo com a extensão .css que é vinculado a página HTML por meio da <em>Tag</em> link.
+                </p>
+                <p>
+                    Observe dentro da <em>Tag</em> link o estilo declarado na forma externa para vincular o arquivo css à página HTML, em destaque:
+                </p>
+            </section>
+            <code>
+        <p>
+          <strong>&lt;link rel="stylesheet" href="./css/stilo.css"&gt; <br/ ></strong>
+        </p></code>
+            <h4 id="exer3">Exercício</h4>
+            <p>
+                Use estilo externo para mudar a cor do fundo da página por meio do propriedade background no seletor html
+            </p>
+            <li>
+                <h3 id="importa">Estilo importado</h3></li>
+            <section>
+                <p>
+                    Essa forma de usar folhas de estilo é apropriada quando se quer alterar um estilo definido previamente.
+                </p>
+                <p>
+                    Declara-se entre as <em>Tags</em> head e em style com type="text/css",conforme o destaque abaixo:
+                </p>
+            </section>
+            <code>
+        <p>
+          <strong>&lt;style type="text/css"&gt; <br/ >
+            @import url(novo.css); <br/ >
+          &lt;/style&gt;</strong>
+        </p></code>
+            <h4 id="exer4">Exercício</h4>
+            <p>
+                Use estilo incorporado para mudar a cor do fundo da página por meio do seletor background na tag html.
+            </p>
+            <li>
+                <h3 id="tudo">Todas as formas em um único documento</h3></li>
+            <section>
+                <p>
+                    É possível usar as três formas de folha de estilo no mesmo documento. Contudo, deve-se observar o "efeito cascata" das folhas de estilo. O <strong>efeito cascata das folhas de estilo</strong> é um método para aplicação de uma regra
+                    css em função do pêso (importância e prioridade).
+                </p>
+            </section>
+
+            <h4 id="exer5">Exercício</h4>
+            <ol type="i">
+                <li>Em um arquivo html utilize todas as 3 formas para dar estilo a página.</li>
+                <li>Aplique as 3 formas de utilizar estilo ao mesmo elemento HTML com seletores iguais e valores diferentes e responda como os estilos são priorizados conforme a teoria do efeito cascata do CSS? </li>
+                <li>Crie um menu de navegação para acessar as perguntas e suas respectivas respostas.</li>
+                <li>Pesquise e reponda:</li>
+                <ol type="a">
+                    <li>Como determinar a ordem do efeito cascata? </li>
+                    <li>O que é folha de estilo alternativa?</li>
+                    <li>O que é folha de estilo persistente?</li>
+                    <li>O que é folha de estilho preferida?</li>
+                </ol>
+            </ol>
+        </ol>
+    </article>
+</body>
+
+</html>

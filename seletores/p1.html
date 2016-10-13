@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br" />
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tiago Angelo Menegaz" />
+    <link rel="stylesheet" href="./css/basep1.css" media="screen" />
+    <link rel="stylesheet" href="./css/skin.css" media="screen" />
+    <title>index</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <menu>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="p1.html">Página 1</a></li>
+                    <li><a href="p2.html">Página 2</a></li>
+                    <li><a href="p3.html">Página 3</a></li>
+                    <li><a href="p4.html">Página 4</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+
+    <article class="content">
+      <h1>Aulas para desenvolvimento Web</h1>
+        <p id="blocop1">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            <a id="site" rel="copyright copyleft copyeditor" href="http://www.w3.org/">www.w3c.org</a>
+        </p>
+        <form class="cadastro" action="p2.html" method="get">
+          <fieldset>
+            <legend lang="pt-br">Cadastro de aluno</legend>
+            <label for="nome">Nome</label>
+            <input required="true" size="25" maxlength="25" placeholder="Digite seu nome"
+                    type="text" id="nome" name="nome">
+
+            <label for="snome">Sobrenome</label>
+            <input required="true" size="25" maxlength="50" placeholder="Digite seu sobrenome"
+                    type="text" id="snome" name="snome">
+
+            <label for="email">E-mail</label>
+            <input required="false" size="50" maxlength="50" placeholder="Digite seu e-mail"
+                    type="email" id="email" name="email">
+            <input type="submit" id="enviar" value="Enviar">
+          </fieldset>
+        </form>
+
+        <form class="cadastro1" action="p2.html" method="get">
+          <fieldset>
+            <legend lang="pt-br">Cadastro de aluno</legend>
+            <div class="form2">
+            <label for="nome">Nome</label>
+            <label for="snome">Sobrenome</label>
+            <label for="email">E-mail</label>
+            </div>
+            <div class="form2">
+            <input size="25" maxlength="25" placeholder="Digite seu nome"
+                    type="text" id="nome" name="nome">
+            <input size="25" maxlength="50" placeholder="Digite seu sobrenome"
+                    type="text" id="snome" name="snome">
+            <input size="50" maxlength="50" placeholder="Digite seu e-mail"
+                    type="email" id="email" name="email">
+            </div>
+            <input type="submit" id="enviar" value="Enviar">
+          </fieldset>
+        </form>
+    </article>
+</body>
+
+</html>

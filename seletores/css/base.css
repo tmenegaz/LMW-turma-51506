@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    height: 980px;
+    width: 1348px;
+}
+
+menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+menu nav {
+    position: absolute;
+    height: 75px;
+    width: inherit;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+article[class="content"] {
+    position: absolute;
+    height: inherit;
+    margin: 50px 0 0 90px;
+    width: 1115px;
+}
+
+
+/* comentário */
+
+article[class="content"] p {
+    position: absolute;
+    padding: 18px;
+}
+
+article p[id="bloco1"] {
+    margin: 0;
+    position: absolute;
+    width: 250px;
+}
+
+article p[id="bloco2"] {
+    margin: 0;
+    left: 290px;
+    position: absolute;
+    width: 250px;
+}
+
+article p[id="bloco3"] {
+    margin: 0;
+    left: 580px;
+    position: absolute;
+    width: 250px;
+}
+
+article p[id="bloco4"] {
+    margin: 0;
+    left: 870px;
+    position: absolute;
+    width: 250px;
+}
+
+nav ul {
+    padding-left: 0px;
+    width: 992.38px;
+}
+
+nav ul li {
+    padding-right: 30px;
+}
+
+nav ul li:last-child {
+    padding-right: 0px;
+}
+
+li:first-child {
+    margin-left: 337.25px;
+}

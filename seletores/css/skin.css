@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+    background-color: #abc;
+    border: 1px solid red;
+}
+
+article[class="content"] p {
+  font-size: 1.27em;
+  background-color: #abc;
+  border: 2px solid #333;
+}
+
+a:link, a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    background-color: #abc;
+    color: white;
+    text-decoration: overline;
+}
+
+a:hover[href="http://www.w3.org/"] {
+    background-color: #abc;
+    color: white;
+    text-decoration: underline;
+}
+
+a[href]:visited {
+    color: #333;
+}
+
+menu {
+  background-color: #ccc;
+}
+
+nav ul li {
+  font-size: 2em;
+  list-style: none;
+}

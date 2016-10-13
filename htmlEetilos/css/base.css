@@ -1,0 +1,70 @@
+/*
+*******Estruturas do css para bord, margin, padding, height, width, possition, display etc
+*/
+
+body {
+  margin: 10px;
+  background-color: snow;
+}
+
+header {
+  width: 1080.800px;
+  height: 135px;
+  display: block;
+  position: relative;
+}
+
+.paraliza {
+  width: 1080.800px;
+  height: 135px;
+  display: block;
+  position: fixed;
+}
+
+
+.logoLeft {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-top-left-radius: 85px;
+  border-bottom-left-radius: 85px;
+  display: block;
+  width: 60px;
+  height: 112px;
+  position: absolute;
+  float: left;
+}
+
+.logoRight {
+  border-top: 1px solid #000;
+  border-right  : 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-top-right-radius: 85px;
+  border-bottom-right-radius: 85px;
+  display: block;
+  width: 60px;
+  height: 112px;
+  position: absolute;
+  margin-left: 60px;
+}
+
+#top, #base {
+  display: block;
+  position: relative;
+}
+
+#top {
+  margin-top: 26px;
+  margin-left: 7px;
+}
+
+#base {
+  margin-left: 60px;
+}
+
+#titulo {
+  display: block;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 130px;
+}
