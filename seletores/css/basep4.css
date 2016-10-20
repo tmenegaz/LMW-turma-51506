@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@import "base.css";
+
+article p[id="blocop4"] {
+    margin: 0;
+    position: relative;
+    width: 80%;
+}

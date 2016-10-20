@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import "base.css";
+
+article p[id="blocop3"] {
+    margin: 0;
+    position: relative;
+    width: 80%;
+}
+
+.cadastro{
+  margin-top: 15px;
+  position: relative;
+  width: 60%;
+
+}
+
+.form2 {
+  float: left;
+}
+
+label {
+  padding-right: 30px;
+  display: block;
+  width: 75px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.form2 input {
+  margin-left: 10px;
+}
+
+input {
+  position: relative;
+  width: inherit;
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+hr{
+  margin-top: 120px;
+}
+
+.form3{
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+h2 {
+  margin-left: 200px;
+  padding: 15px 0 15px 15px;
+  width: 300px;
+}
+
+.form3 h2 {
+  width: 270px;
+}
+
+input#enviar {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -30px;
+  padding: 5px 20px;
+  clear: both;
+  width: auto;
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import "skin.css";
+
+label, h2{
+  border: 0.5px solid #000;
+}
+.cadastro {
+  background-color: #abf;
+}
