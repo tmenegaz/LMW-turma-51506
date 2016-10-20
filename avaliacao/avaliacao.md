@@ -21,3 +21,5 @@
   - no formulário:
       - dois label. Um abaixo do outro: nome e e-mail, respectivamente
       - dois inputs. Um para o nome em frente do nome e outro para e-mail em frente do e-mail.
+      - um ```textarea``` logo abaixo dos ```labels``` e ```inputs```.
+      - uma linha horizontal entre o ```input type="submit"``` e o ```textarea```.
